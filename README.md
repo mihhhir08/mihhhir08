@@ -1,9 +1,10 @@
 - Hi, I'm Mihirsinh Chavda 👋
 🧑‍💻 Last-Term BS Computer Science Student | AI/ML Enthusiast | Full-Stack Developer in Progress | Aspiring Tech Innovator
 
--🚀 About Me
+- 🚀 About Me
 I'm Mihirsinh Chavda, a final-term BS Computer Science student, excited about learning and growing in the tech world. I’m exploring Artificial Intelligence, Machine Learning, and Full-Stack Development, and am constantly honing my skills in these areas.
--💡 What Drives Me?
+
+- 💡 What Drives Me?
 I'm passionate about solving problems and building scalable solutions. I love the process of learning how to turn complex ideas into efficient, real-world applications, whether through machine learning models or web development. My journey is ongoing, and each project brings me closer to mastering these skills.
 
 - 🛠️ What I'm Learning:

@@ -1,0 +1,244 @@
+/* Global styles */
+body {
+    font-family: 'SF Pro Display', 'Roboto', sans-serif; /* Apple-inspired font */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Softer background color */
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    margin: 0 1rem;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+    color: #007bff; /* Hover effect */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.hero h1, .hero p {
+    opacity: 0; /* Hidden initially for reveal effect */
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.hero-content.visible h1, .hero-content.visible p {
+    opacity: 1; /* Text appears on page load */
+    transform: translateY(0);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* About Section */
+.about-container {
+    padding: 3rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent for blending */
+    border-radius: 12px; /* Rounded corners for elegance */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease; /* Smooth effect on hover */
+}
+
+.about-container:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+.about-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333; /* Heading standout */
+    letter-spacing: 1px; /* Spacing for a modern look */
+    text-transform: uppercase; /* Uppercase for a clean look */
+}
+
+.about-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 1rem 0; /* Spacing between paragraphs */
+    line-height: 1.6; /* Improved readability */
+    max-width: 800px; /* Limit the width for better aesthetics */
+    margin: auto; /* Center text block */
+    transition: color 0.3s ease; /* Transition for color change */
+}
+
+
+
+
+
+/* Projects Section */
+.projects-container {
+    padding: 3rem;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* Hide scrollbar in IE and Edge */
+    scrollbar-width: none;      /* Hide scrollbar in Firefox */
+}
+
+.projects-container::-webkit-scrollbar {
+    display: none;              /* Hide scrollbar in Chrome, Safari, and Opera */
+}
+
+.project-grid {
+    display: flex;
+    gap: 2rem; /* Spacing between cards */
+    padding-bottom: 2rem; /* Some space at the bottom */
+}
+
+.project-card {
+    min-width: 300px; /* Set the width of each card */
+    flex-shrink: 0; /* Prevent cards from shrinking */
+    background: rgba(255, 255, 255, 0.95); /* Slightly transparent to blend with background */
+    border-radius: 12px; /* Slightly rounded corners for elegance */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 350px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Hover effect */
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.1); /* Image zoom on hover */
+}
+
+.project-info {
+    padding: 1rem;
+}
+
+.project-info h3, .project-info p {
+    transition: color 0.3s ease;
+}
+
+.project-card:hover .project-info h3 {
+    color: #007bff; /* Project title color on hover */
+}
+
+/* Background gradients for each project card */
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(239, 239, 239, 0.9)); /* Soft gradient */
+}
+
+/* Contact Section */
+.contact-container {
+    padding: 3rem;
+    text-align: center;
+}
+
+.contact-container form input,
+.contact-container form textarea {
+    width: 60%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-container form button {
+    padding: 0.8rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.social-links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #007bff; /* Hover effect on social links */
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+/* Smooth scroll for nav links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Reveal sections on scroll */
+.section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,6 @@
+Flask==2.0.1
+transformers==4.12.3
+torch==2.4.1  # or the latest version from the available list
+SQLAlchemy==1.4.27
+Flask-SQLAlchemy==2.5.1
+ tokenizers==0.10.3

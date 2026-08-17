@@ -49,27 +49,25 @@ flowchart LR
 <!-- replay:start -->
 
 ```text
-run r-8f2a1c · recorded 2026-08-14 · forked at step 2
+run r-8f2a1c · recorded 2026-08-14 · forked at step 4
 
 ? Which deploy broke checkout?
 
    0  plan     list deploys in window
    1  tool     deploys.list(14:00)      → 4 candidates
-
-  ── fork at 2 ────────────────────────────
-
-  recorded
    2  tool     diff(d3)                 → session.ts +18 −4
    3  reason   TTL 30m → 45s            → cart expires mid-pay
+
+  ── fork at 4 ────────────────────────────
+
+  recorded
    4  answer   d3 broke checkout        → confidence 0.91
 
   forked
-   2  tool     diff(d3, scope=svc)      → no changes
-   3  reason   shared edit unseen       → cause hidden
-   4  answer   d3 looks clean           → confidence 0.55
+   4  answer   escalate to a human      → 0.91 < gate 0.95
 
-  diverges: diff scoped to the service, not the shared package
-  outcome:  d3 broke checkout  →  d3 looks clean
+  diverges: same evidence, answer withheld below threshold
+  outcome:  d3 broke checkout  →  escalate to a human
 ```
 
 Fork this run at step: [0](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%200) · [1](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%201) · [2](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%202) · [3](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%203) · [4](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%204) — opens a pre-filled issue. The workflow replays it and rewrites this section.

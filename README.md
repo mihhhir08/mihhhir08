@@ -22,18 +22,18 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 </p>
 
 ```text
-╭─ BUILD SHEET / M-08 ───────────────────────╮
-│                                             │
-│  OPAQUE BEHAVIOR                            │
-│         │                                   │
-│         ├── TRACE     reproduce it          │
-│         ├── PREDICT   change it safely      │
-│         ├── VERIFY    prove the result      │
-│         ├── EXPLAIN   make it legible       │
-│         └── SHIP      make it useful        │
-│                                             │
-│                         INSPECTABLE SOFTWARE│
-╰─────────────────────────────────────────────╯
+╭─ M-08 / BUILD SHEET ────────────────╮
+│                                     │
+│ OPAQUE BEHAVIOR                     │
+│    │                                │
+│    ├─ TRACE     reproduce it        │
+│    ├─ PREDICT   change it safely    │
+│    ├─ VERIFY    prove the result    │
+│    ├─ EXPLAIN   make it legible     │
+│    └─ SHIP      make it useful      │
+│                                     │
+│              → INSPECTABLE SOFTWARE │
+╰─────────────────────────────────────╯
 ```
 
 I build software for the moment when a black box needs to become a glass box: replaying an AI decision, predicting a breaking change, tracing a financial claim to evidence, or making a complicated algorithm understandable.

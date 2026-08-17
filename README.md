@@ -1,23 +1,109 @@
-# Mihirsinh Chavda
+<!--
+THESIS: Mihir turns opaque behavior into inspectable software; the README refuses profile-card and badge-wall conventions.
+OWN-WORLD: A GitHub-native builder interface made only from type, rules, code blocks, keycaps, tables, and disclosure controls.
+STORY: Read the operating principle, inspect five real proofs, open the interesting mechanism, then make contact.
+FIRST VIEWPORT: Name and thesis lead into a compact ASCII build sheet; no image, SVG, badge, iframe, custom CSS, or external renderer.
+FORM: README-native build sheet, rebuilt from the user's no-image constraint.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
 
-Software engineer building inspectable AI systems, evidence-first data products, and polished full-stack tools.
+<h1 align="center">MIHIRSINH CHAVDA</h1>
 
-I like projects where the hard part is making complex behavior understandable: replaying nondeterministic software, verifying automated changes, tracing financial conclusions back to evidence, or turning a large algorithm into an interactive explanation.
+<p align="center">
+  <samp>unusually creative builder · software engineer · Toronto</samp>
+</p>
 
-## Selected work
+<p align="center">
+  <a href="https://mihirsinhchavda.com"><strong>portfolio ↗</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/mihirsinh-chavda-7115b922b/">linkedin</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:mihhhir08@gmail.com">email</a>
+</p>
 
-| Project | What it demonstrates |
-|---|---|
-| [Continuity](https://github.com/mihhhir08/continuity) | Rust and TypeScript infrastructure that predicts, repairs, verifies, and attests software migrations. |
-| [rewind](https://github.com/mihhhir08/rewind) | Deterministic record/replay debugging for LLM systems, including offline replay and counterfactual forks. |
-| [Earnings Delta](https://github.com/mihhhir08/earnings-delta) | Evidence-first financial change detection with auditable calculations and confidence boundaries. |
-| [X Algorithm Explained](https://github.com/mihhhir08/x-algorithm-explained) | A source-backed, interactive technical explainer for X's open-source recommendation pipeline. |
-| [BATCOMPUTER](https://github.com/mihhhir08/momentum-90) | A private, full-stack mission-control product with authentication, row-level security, analytics, and backups. |
+```text
+╭─ BUILD SHEET / M-08 ───────────────────────╮
+│                                             │
+│  OPAQUE BEHAVIOR                            │
+│         │                                   │
+│         ├── TRACE     reproduce it          │
+│         ├── PREDICT   change it safely      │
+│         ├── VERIFY    prove the result      │
+│         ├── EXPLAIN   make it legible       │
+│         └── SHIP      make it useful        │
+│                                             │
+│                         INSPECTABLE SOFTWARE│
+╰─────────────────────────────────────────────╯
+```
 
-## Tools I work with
+I build software for the moment when a black box needs to become a glass box: replaying an AI decision, predicting a breaking change, tracing a financial claim to evidence, or making a complicated algorithm understandable.
 
-TypeScript · React · Next.js · Node.js · Python · Rust · PostgreSQL · Supabase · SQLite
+<p align="center">
+  <kbd>TRACE</kbd>&nbsp;→&nbsp;<kbd>PREDICT</kbd>&nbsp;→&nbsp;<kbd>VERIFY</kbd>&nbsp;→&nbsp;<kbd>EXPLAIN</kbd>&nbsp;→&nbsp;<kbd>SHIP</kbd>
+</p>
 
-I'm currently open to software and AI engineering opportunities and to collaborating on useful open-source projects.
+## Open a mechanism
 
-[Portfolio](https://mihirsinhchavda.com) · [LinkedIn](https://www.linkedin.com/in/mihirsinh-chavda-7115b922b/) · [Email](mailto:mihhhir08@gmail.com)
+<details open>
+<summary><strong>TRACE · rewind</strong> — deterministic replay for LLM systems</summary>
+
+> Record a run once. Replay it offline. Fork the exact same history to test a counterfactual.
+
+`record → isolate → replay → fork → compare`
+
+[Inspect the repository →](https://github.com/mihhhir08/rewind)
+</details>
+
+<details>
+<summary><strong>PREDICT · Continuity</strong> — verified software migrations</summary>
+
+> Predict the break, propose the repair, verify the result, and leave an attestation behind.
+
+`predict → repair → verify → attest`
+
+[Inspect the repository →](https://github.com/mihhhir08/continuity)
+</details>
+
+<details>
+<summary><strong>VERIFY · Earnings Delta</strong> — evidence-first financial change detection</summary>
+
+> Detect what materially changed without separating the conclusion from the source evidence.
+
+`extract → calculate → qualify → cite`
+
+[Inspect the repository →](https://github.com/mihhhir08/earnings-delta)
+</details>
+
+<details>
+<summary><strong>EXPLAIN · X Algorithm Explained</strong> — an interactive recommendation-system explainer</summary>
+
+> Turn a large open-source ranking pipeline into a source-backed system people can actually explore.
+
+`source → model → simulate → understand`
+
+[Inspect the repository →](https://github.com/mihhhir08/x-algorithm-explained)
+</details>
+
+<details>
+<summary><strong>SHIP · BATCOMPUTER</strong> — private full-stack mission control</summary>
+
+> Authentication, row-level security, analytics, and backups assembled into a product—not a demo.
+
+`secure → operate → measure → recover`
+
+[Inspect the repository →](https://github.com/mihhhir08/momentum-90)
+</details>
+
+## Operating range
+
+| Systems | Product | Data |
+|:--|:--|:--|
+| Rust · Python · Node.js | TypeScript · React · Next.js | PostgreSQL · Supabase · SQLite |
+| replay · verification · automation | interaction · full-stack delivery | evidence · analytics · access control |
+
+> [!IMPORTANT]
+> I care less about making software *look intelligent* than making its decisions inspectable, testable, and useful.
+
+<p align="center">
+  <sub>Open to software and AI engineering roles · open-source collaborations welcome</sub>
+</p>

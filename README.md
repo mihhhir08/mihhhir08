@@ -1,16 +1,7 @@
-<!--
-THESIS: Mihir turns opaque behavior into inspectable software; the README refuses profile-card and badge-wall conventions.
-OWN-WORLD: A GitHub-native builder interface made only from type, rules, code blocks, keycaps, tables, and disclosure controls.
-STORY: Read the operating principle, inspect five real proofs, open the interesting mechanism, then make contact.
-FIRST VIEWPORT: Name and thesis lead into a compact ASCII build sheet; no image, SVG, badge, iframe, custom CSS, or external renderer.
-FORM: README-native build sheet, grounded direction 5, seed 332b3e0a; rebuilt from the user's no-image constraint.
-FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
--->
-
 <h1 align="center">MIHIRSINH CHAVDA</h1>
 
 <p align="center">
-  <samp>unusually creative builder · software engineer · Toronto</samp>
+  <samp>software engineer · inspectable AI systems · Toronto</samp>
 </p>
 
 <p align="center">
@@ -21,78 +12,69 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <a href="mailto:mihhhir08@gmail.com">email</a>
 </p>
 
-```text
-╭─ M-08 / BUILD SHEET ────────────────╮
-│                                     │
-│ OPAQUE BEHAVIOR                     │
-│    │                                │
-│    ├─ TRACE     reproduce it        │
-│    ├─ PREDICT   change it safely    │
-│    ├─ VERIFY    prove the result    │
-│    ├─ EXPLAIN   make it legible     │
-│    └─ SHIP      make it useful      │
-│                                     │
-│              → INSPECTABLE SOFTWARE │
-╰─────────────────────────────────────╯
+I build software for the moment a black box has to become a glass box — replaying an AI decision, predicting a breaking change, tracing a financial claim back to its evidence.
+
+```mermaid
+flowchart LR
+    OB(["opaque behavior"])
+    OB --> T["TRACE<br/>rewind"]
+    OB --> P["PREDICT<br/>continuity"]
+    OB --> A["AUDIT<br/>AgentLens"]
+    OB --> V["VERIFY<br/>earnings-delta"]
+    OB --> E["EXPLAIN<br/>x-algorithm"]
+    T --> IS(["inspectable software"])
+    P --> IS
+    A --> IS
+    V --> IS
+    E --> IS
 ```
 
-I build software for the moment when a black box needs to become a glass box: replaying an AI decision, predicting a breaking change, tracing a financial claim to evidence, or making a complicated algorithm understandable.
+## Five proofs
 
-<p align="center">
-  <kbd>TRACE</kbd>&nbsp;→&nbsp;<kbd>PREDICT</kbd>&nbsp;→&nbsp;<kbd>VERIFY</kbd>&nbsp;→&nbsp;<kbd>EXPLAIN</kbd>&nbsp;→&nbsp;<kbd>SHIP</kbd>
-</p>
+| | | |
+|:--|:--|:--|
+| **TRACE** | [**rewind**](https://github.com/mihhhir08/rewind) — record an LLM run once, replay it offline, fork any step to test a counterfactual | `record → replay → fork → compare` |
+| **PREDICT** | [**continuity**](https://github.com/mihhhir08/continuity) — predict the break before release, propose the repair, leave an attestation behind | `predict → repair → verify → attest` |
+| **AUDIT** | [**AgentLens**](https://github.com/mihhhir08/AgentLens) — local audit reports for AI coding sessions: commands, diffs, failures, risk flags | `capture → diff → flag → report` |
+| **VERIFY** | [**earnings-delta**](https://github.com/mihhhir08/earnings-delta) — detect what materially changed without separating the conclusion from its evidence | `extract → calculate → qualify → cite` |
+| **EXPLAIN** | [**x-algorithm-explained**](https://github.com/mihhhir08/x-algorithm-explained) — turn a large open-source ranking pipeline into something you can actually explore | `source → model → simulate → understand` |
 
-## Open a mechanism
+## Replay a run, live
 
-<details open>
-<summary><strong>TRACE · rewind</strong> — deterministic replay for LLM systems</summary>
+> [!TIP]
+> This is not a screenshot. Pick a step, submit the pre-filled issue, and a workflow replays this run from that fork point and rewrites the block below. The commit history is the audit log.
+>
+> The trace is a recorded sample in [`replay/trace.json`](replay/trace.json), replayed offline — no model call, no network. Determinism is the point: the same fork always returns the same timeline. It is [rewind](https://github.com/mihhhir08/rewind) in miniature.
 
-> Record a run once. Replay it offline. Fork the exact same history to test a counterfactual.
+<!-- replay:start -->
 
-`record → isolate → replay → fork → compare`
+```text
+run r-8f2a1c · recorded 2026-08-14 · forked at step 2
 
-[Inspect the repository](https://github.com/mihhhir08/rewind)
-</details>
+? Which deploy broke checkout?
 
-<details>
-<summary><strong>PREDICT · Continuity</strong> — verified software migrations</summary>
+   0  plan     list deploys in window
+   1  tool     deploys.list(14:00)      → 4 candidates
 
-> Predict the break, propose the repair, verify the result, and leave an attestation behind.
+  ── fork at 2 ────────────────────────────
 
-`predict → repair → verify → attest`
+  recorded
+   2  tool     diff(d3)                 → session.ts +18 −4
+   3  reason   TTL 30m → 45s            → cart expires mid-pay
+   4  answer   d3 broke checkout        → confidence 0.91
 
-[Inspect the repository](https://github.com/mihhhir08/continuity)
-</details>
+  forked
+   2  tool     diff(d3, scope=svc)      → no changes
+   3  reason   shared edit unseen       → cause hidden
+   4  answer   d3 looks clean           → confidence 0.55
 
-<details>
-<summary><strong>VERIFY · Earnings Delta</strong> — evidence-first financial change detection</summary>
+  diverges: diff scoped to the service, not the shared package
+  outcome:  d3 broke checkout  →  d3 looks clean
+```
 
-> Detect what materially changed without separating the conclusion from the source evidence.
+Fork this run at step: [0](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%200) · [1](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%201) · [2](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%202) · [3](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%203) · [4](https://github.com/mihhhir08/mihhhir08/issues/new?title=replay:%20fork%204) — opens a pre-filled issue. The workflow replays it and rewrites this section.
 
-`extract → calculate → qualify → cite`
-
-[Inspect the repository](https://github.com/mihhhir08/earnings-delta)
-</details>
-
-<details>
-<summary><strong>EXPLAIN · X Algorithm Explained</strong> — an interactive recommendation-system explainer</summary>
-
-> Turn a large open-source ranking pipeline into a source-backed system people can actually explore.
-
-`source → model → simulate → understand`
-
-[Inspect the repository](https://github.com/mihhhir08/x-algorithm-explained)
-</details>
-
-<details>
-<summary><strong>SHIP · BATCOMPUTER</strong> — private full-stack mission control</summary>
-
-> Authentication, row-level security, analytics, and backups assembled into a product—not a demo.
-
-`secure → operate → measure → recover`
-
-[Inspect the repository](https://github.com/mihhhir08/momentum-90)
-</details>
+<!-- replay:end -->
 
 ## Operating range
 
@@ -102,7 +84,7 @@ I build software for the moment when a black box needs to become a glass box: re
 | replay · verification · automation | interaction · full-stack delivery | evidence · analytics · access control |
 
 > [!IMPORTANT]
-> I care less about making software *look intelligent* than making its decisions inspectable, testable, and useful.
+> I care less about making software *look* intelligent than about making its decisions inspectable, testable, and useful.
 
 <p align="center">
   <sub>Open to software and AI engineering roles · open-source collaborations welcome</sub>

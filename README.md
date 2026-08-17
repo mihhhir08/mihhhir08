@@ -3,7 +3,7 @@ THESIS: Mihir turns opaque behavior into inspectable software; the README refuse
 OWN-WORLD: A GitHub-native builder interface made only from type, rules, code blocks, keycaps, tables, and disclosure controls.
 STORY: Read the operating principle, inspect five real proofs, open the interesting mechanism, then make contact.
 FIRST VIEWPORT: Name and thesis lead into a compact ASCII build sheet; no image, SVG, badge, iframe, custom CSS, or external renderer.
-FORM: README-native build sheet, rebuilt from the user's no-image constraint.
+FORM: README-native build sheet, grounded direction 5, seed 332b3e0a; rebuilt from the user's no-image constraint.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
 -->
 
@@ -14,7 +14,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 </p>
 
 <p align="center">
-  <a href="https://mihirsinhchavda.com"><strong>portfolio ↗</strong></a>
+  <a href="https://mihirsinhchavda.com"><strong>portfolio</strong></a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/mihirsinh-chavda-7115b922b/">linkedin</a>
   &nbsp;·&nbsp;
@@ -51,7 +51,7 @@ I build software for the moment when a black box needs to become a glass box: re
 
 `record → isolate → replay → fork → compare`
 
-[Inspect the repository →](https://github.com/mihhhir08/rewind)
+[Inspect the repository](https://github.com/mihhhir08/rewind)
 </details>
 
 <details>
@@ -61,7 +61,7 @@ I build software for the moment when a black box needs to become a glass box: re
 
 `predict → repair → verify → attest`
 
-[Inspect the repository →](https://github.com/mihhhir08/continuity)
+[Inspect the repository](https://github.com/mihhhir08/continuity)
 </details>
 
 <details>
@@ -71,7 +71,7 @@ I build software for the moment when a black box needs to become a glass box: re
 
 `extract → calculate → qualify → cite`
 
-[Inspect the repository →](https://github.com/mihhhir08/earnings-delta)
+[Inspect the repository](https://github.com/mihhhir08/earnings-delta)
 </details>
 
 <details>
@@ -81,7 +81,7 @@ I build software for the moment when a black box needs to become a glass box: re
 
 `source → model → simulate → understand`
 
-[Inspect the repository →](https://github.com/mihhhir08/x-algorithm-explained)
+[Inspect the repository](https://github.com/mihhhir08/x-algorithm-explained)
 </details>
 
 <details>
@@ -91,7 +91,7 @@ I build software for the moment when a black box needs to become a glass box: re
 
 `secure → operate → measure → recover`
 
-[Inspect the repository →](https://github.com/mihhhir08/momentum-90)
+[Inspect the repository](https://github.com/mihhhir08/momentum-90)
 </details>
 
 ## Operating range

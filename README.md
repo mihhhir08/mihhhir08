@@ -1,21 +1,23 @@
-# Hi there, I'm Mihir 👋
+# Mihirsinh Chavda
 
-I'm an AI-focused builder and full stack developer passionate about creating apps, SaaS products, and automation systems that solve real-world problems.
+Software engineer building inspectable AI systems, evidence-first data products, and polished full-stack tools.
 
-I enjoy turning ideas into fast, functional products while exploring AI agents, modern web technologies, and product growth. Recently, I’ve been focused on building AI-powered tools, experimenting with automation workflows, and shipping projects publicly while continuously improving my development skills.
+I like projects where the hard part is making complex behavior understandable: replaying nondeterministic software, verifying automated changes, tracing financial conclusions back to evidence, or turning a large algorithm into an interactive explanation.
 
-Currently, I’m building personal AI systems, consumer-focused apps, and full stack projects with modern technologies.
+## Selected work
 
-🔭 Currently working on AI apps, SaaS products, and automation tools. 
+| Project | What it demonstrates |
+|---|---|
+| [Continuity](https://github.com/mihhhir08/continuity) | Rust and TypeScript infrastructure that predicts, repairs, verifies, and attests software migrations. |
+| [rewind](https://github.com/mihhhir08/rewind) | Deterministic record/replay debugging for LLM systems, including offline replay and counterfactual forks. |
+| [Earnings Delta](https://github.com/mihhhir08/earnings-delta) | Evidence-first financial change detection with auditable calculations and confidence boundaries. |
+| [X Algorithm Explained](https://github.com/mihhhir08/x-algorithm-explained) | A source-backed, interactive technical explainer for X's open-source recommendation pipeline. |
+| [BATCOMPUTER](https://github.com/mihhhir08/momentum-90) | A private, full-stack mission-control product with authentication, row-level security, analytics, and backups. |
 
-🌱 Learning more about AI agents, scalable systems, and product growth.
+## Tools I work with
 
-👯 Looking to collaborate on AI, SaaS, and full stack projects.
+TypeScript · React · Next.js · Node.js · Python · Rust · PostgreSQL · Supabase · SQLite
 
-💬 Ask me about AI tools, full stack development, automation, or building products fast.
+I'm currently open to software and AI engineering opportunities and to collaborating on useful open-source projects.
 
-📫 Reach me at: mihhhir08@gmail.com
-
-## 🛠 Tech Stack
-
-TypeScript • React • Next.js • Node.js • Python • Firebase • Supabase • AI APIs
+[Portfolio](https://mihirsinhchavda.com) · [LinkedIn](https://www.linkedin.com/in/mihirsinh-chavda-7115b922b/) · [Email](mailto:mihhhir08@gmail.com)

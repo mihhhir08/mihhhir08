@@ -1,1 +1,1 @@
-Check https://mihirsinhchavda.com/ for more :)
+Check mihirsinhchavda.com for more :)
